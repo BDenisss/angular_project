@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { ProjectsListComponent } from './projects-list/projects-list.component';
+import { ProjectListComponent } from './pages/project-list/project-list.component';
+import { HomeComponent } from './pages/home/home.component';
 
 export const routes: Routes = [
-    { path: 'projects', component: ProjectsListComponent },
-    { path: '', redirectTo: '/projects', pathMatch: 'full' }
-];
+    { path: '', component: HomeComponent }, // Page d'accueil comme racine
+    { path: 'projects', component: ProjectListComponent },];
