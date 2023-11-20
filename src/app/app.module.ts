@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 
 @NgModule({
     declarations: [
-
         // autres composants déclarés ici...
     ],
     imports: [
